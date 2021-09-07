@@ -1,0 +1,23 @@
+div { background-color:#dddddd; }
+/* Selectores descendientes */
+div a {
+    background-color:#009cde;
+    color:#ffffff;
+    text-decoration:none;
+}
+div div div a {
+    background-color:red;
+    color:yellow;
+}
+/* Selectores de clase */
+.padre{ background-color:#009cde; }
+/* Selectores de identificador */
+#abuelo{ border-color:#009cde; }
+/* Selector global */
+*{ background-color:#009cde; }
+/* Selector de adyacencia */
+.padre + p{ background-color:#009cde; }
+/* Selector de hijos directos elemento A > elemento B */
+#abuelo > div{ border-color:red; }
+/* Selector de hermanos: elementoA ~ elementoB */
+.padre ~ p{ background-color:#009cde; }
