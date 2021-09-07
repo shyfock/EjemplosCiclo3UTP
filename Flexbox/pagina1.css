@@ -1,0 +1,78 @@
+*{
+    margin: 5px;
+    padding: none;
+    border: 1px;
+    box-sizing: border-box;
+}
+    .padre{
+        display: flex;
+        flex-flow: column;
+        flex-wrap: nowrap;
+    }
+        .header{
+            background-color:#2528;
+            flex-flow: column;
+        }
+            .menu{
+                background-color: antiquewhite;
+                display: flex;
+                flex-flow: row;
+                height: 60px;
+            }
+                .logo{
+                    background-color: rgb(103, 230, 19);
+                    flex: 1 1 auto;
+                }
+                .busqueda{
+                    background-color: rgba(157, 151, 233, 0.658);
+                    flex: 5 1 auto;
+                }
+                    .search{
+                        background-color: rgba(241, 171, 181, 0.849);
+                        height: 8px;
+                    }
+                    .navegacion{
+                        background-color: rgba(234, 236, 102, 0.89);
+                        height: 8px;
+                    }
+        .section1{
+            background-color: #f654f6;
+            display: flex;
+            height: 150px;
+        }
+            .tool{
+                background-color: tomato;
+                flex: 1 1 auto;
+            }
+            .imagenprincipal{
+                background-color: thistle;
+                flex: 5 1 auto;
+            }
+        .section2{
+            background-color: blueviolet;
+            display: flex;
+            height: 200px;
+        }
+            .contenido{
+                background-color: sienna;
+                display: flex;
+                flex-flow: row wrap;
+                flex: 3 1 auto;
+            }
+                .caracteristicas{
+                    background-color: rgb(240, 14, 240);
+                    height: 20px;
+                    flex: 1 1 100%;
+                }
+                .productos{
+                    background-color: springgreen;
+                    height: 60px;
+                    flex: 1 1 40%;
+                }
+            .aside{
+                background-color: orchid;
+                flex: 1 1 auto;
+            }
+        .footer{
+            background-color: peru;
+        }
