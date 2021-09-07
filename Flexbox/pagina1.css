@@ -21,7 +21,7 @@
             }
                 .logo{
                     background-color: rgb(103, 230, 19);
-                    flex: 1 1 auto;
+                    flex: 1.5 1 auto;
                 }
                 .busqueda{
                     background-color: rgba(157, 151, 233, 0.658);
@@ -29,7 +29,7 @@
                 }
                     .search{
                         background-color: rgba(241, 171, 181, 0.849);
-                        height: 8px;
+                        height: 25px;
                     }
                     .navegacion{
                         background-color: rgba(234, 236, 102, 0.89);
